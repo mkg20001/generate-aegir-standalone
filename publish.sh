@@ -14,4 +14,5 @@ git tag "v$VER"
 git push --tags
 git push
 
+npm publish
 
