@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-aegir",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "description": "Eslint Shareable Config used in Aegir",
   "main": "index.js",
-  "repository": "https://github.com/ipfs/eslint-config-aegir",
+  "repository": "https://github.com/mkg20001/eslint-config-aegir-standalone",
   "bugs": {
-    "url": "https://github.com/ipfs/eslint-config-aegir/issues"
+    "url": "https://github.com/mkg20001/eslint-config-aegir-standalone/issues"
   },
-  "author": "Friedel Ziegelmayer <dignifiedquire@gmail.com>",
+  "author": "Maciej Krüger <mkg20001@gmail.com>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",

@@ -18,6 +18,7 @@ cp -rp template out
 cp ./aegir/src/config/eslintrc.js out/index.js
 
 pushd out
+sed -i "s|\"0.0.0|\"$(cat ../aegir/package.json | jq -r .version)|g" package.json
 npx yarn install
 npx yarn test
 popd
