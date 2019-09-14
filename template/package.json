@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-aegir",
+  "name": "eslint-config-aegir-standalone",
   "version": "0.0.0",
   "description": "Eslint Shareable Config used in Aegir",
   "main": "index.js",
